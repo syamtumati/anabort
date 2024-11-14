@@ -1,0 +1,27 @@
+/* src/pages/Donate.css */
+.donate-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .donate-section h2 {
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .donate-button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #00796b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .donate-button:hover {
+    background-color: #004d40;
+  }
+  

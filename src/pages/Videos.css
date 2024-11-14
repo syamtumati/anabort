@@ -1,0 +1,28 @@
+/* src/pages/Videos.css */
+.videos-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #5c250c; /* Blue background color */
+  }
+  
+  .videos-section h2 {
+    color: #0a0524;
+    font-size: 2rem; /* Increase heading size */
+  }
+  
+  .videos-container {
+    display: flex;
+    flex-direction: column; /* Stack videos vertically */
+    align-items: center; /* Center videos horizontally */
+    margin-top: 20px;
+  }
+  
+  .video-player {
+    width: 100%; /* Take up full width of the container */
+    max-width: 1200px; /* Max width for very large displays */
+    height: auto;
+    margin: 20px 0; /* Add vertical spacing between videos */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+  }
+  

@@ -1,0 +1,28 @@
+/* src/pages/Gallery.css */
+.gallery-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #0c5c34; /* Blue background color */
+  }
+  
+  .gallery-section h2 {
+    color: #333;
+    font-size: 2rem; /* Increase heading size */
+  }
+  
+  .gallery-images {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+    margin-top: 20px;
+  }
+  
+  .gallery-image {
+    width: 100%; /* Take up full width of the container */
+    max-width: 1200px; /* Max width for very large displays */
+    height: auto;
+    margin: 20px 0; /* Add vertical spacing between images */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Stronger shadow */
+  }
+  
